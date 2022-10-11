@@ -31,7 +31,6 @@ SET time_zone = "+00:00";
 CREATE TABLE `Dataset` (
   `Operacao` varchar(20) NOT NULL,
   `area` char(1) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
-  `contrato` char(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
   `ope` decimal(3,0) NOT NULL,
   `Objetivo_da_Operacao` decimal(2,0) DEFAULT NULL,
   `Aplicacao_de_Recursos` decimal(3,0) DEFAULT NULL,
